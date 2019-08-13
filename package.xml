@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ameronix_OrderDelete</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Utilizes transactions to securely delete orders using the native Magento API.</summary>
+    <description>Using Magento's built-in order delete API and its database transaction capability, this module securely deletes orders while making sure there have been no errors before committing the changes to the database all while fully complying with Magento development standards.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Richard Klint</name><user>ameronix</user><email>rklint@ameornix.com</email></author></authors>
+    <date>2014-07-31</date>
+    <time>13:00:17</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Ameronix_OrderDelete.xml" hash="63e06b2afb02fec7987103dfa5d552c8"/></dir></target><target name="magecommunity"><dir name="Ameronix"><dir name="OrderDelete"><dir name="Helper"><file name="Xml.php" hash="550f37f0d70d1f1be4e22d00776cb4f8"/></dir><dir name="Model"><file name="Observer.php" hash="e5fbb6da0335c20ed1b3a7ae43165c86"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="OrderdeleteController.php" hash="f1ddefaf6287f8157be43b17f3e97f58"/></dir></dir><dir name="etc"><file name="config.xml" hash="57ea8b9ff19078900fb8a5014d939bc9"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="ameronix_orderdelete.xml" hash="4e396b3ef292d28a181fc3a11a64a65e"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
