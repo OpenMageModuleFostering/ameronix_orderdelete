@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Ameronix_OrderDelete",
+    "name": "OpenMageModuleFostering\/Ameronix_OrderDelete",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "Utilizes transactions to securely delete orders using the native Magento API.",
     "authors": [
-    {
-        "name": "Richard Klint",
-        "email": "rklint@ameornix.com"
-    }
-],
+        {
+            "name": "Richard Klint",
+            "email": "rklint@ameornix.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
